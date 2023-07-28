@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ust Training\\practice-project\\Project\\Registration\\Registration.csproj": {}
+    "D:\\Advance\\Projectprac\\Project\\Registration\\Registration.csproj": {}
   },
   "projects": {
-    "D:\\Ust Training\\practice-project\\Project\\Registration\\Registration.csproj": {
+    "D:\\Advance\\Projectprac\\Project\\Registration\\Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ust Training\\practice-project\\Project\\Registration\\Registration.csproj",
+        "projectUniqueName": "D:\\Advance\\Projectprac\\Project\\Registration\\Registration.csproj",
         "projectName": "Registration",
-        "projectPath": "D:\\Ust Training\\practice-project\\Project\\Registration\\Registration.csproj",
+        "projectPath": "D:\\Advance\\Projectprac\\Project\\Registration\\Registration.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Ust Training\\practice-project\\Project\\Registration\\obj\\",
+        "outputPath": "D:\\Advance\\Projectprac\\Project\\Registration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,23 +47,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
