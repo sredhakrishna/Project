@@ -1,0 +1,207 @@
+/* Page.css */
+
+/* Add the following style to set the background image */
+
+  
+  
+  /* Page.css */
+/* Page.css */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #faf1f1;
+    padding: 10px;
+  }
+  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 50px; /* Adjust the top position to move the sidebar below the navbar */
+    right: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Styles for sidebar elements */
+  .sidebar-element {
+    margin-bottom: 10px; /* Add margin between elements */
+    padding: 5px; /* Add padding inside elements */
+    border-bottom: 1px solid #fff; /* Add a bottom border to separate elements visually */
+  }
+  
+  /* Style for the last sidebar element to remove the bottom margin */
+  .sidebar .sidebar-element:last-child {
+    margin-bottom: 0;
+  }
+  
+  .content {
+    margin-top: 50px; /* Add space for the navbar */
+    margin-right: 200px; /* Adjust this value to match the sidebar width */
+    transition: margin 0.3s ease;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar.active {
+    transform: translateX(-500px);
+  }
+  
+  .content.active {
+    margin-right: 0;
+  }
+
+ 
+  /* Page.css */
+
+/* Page.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    /* Set the container as a flex container with flex direction as row */
+    display: flex;
+  }
+  
+  .slider {
+    /* Adjust the width and height of the image container as needed */
+    width: 500px;
+    height: 500px;
+    /* Center the image horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider img {
+    /* Set the image width and height to 100% to fill the slider container */
+    width: 100%;
+    height: 100%;
+    /* If you want to keep the image proportions, you can use object-fit property */
+    object-fit: cover; /* or 'contain' to fit the whole image without cropping */
+  }
+  
+  .form-container {
+    /* Add some spacing between the image and the form */
+    margin-left: 20px;
+    /* If you want the form to take the remaining width, use flex-grow */
+    flex-grow: 1;
+    /* Center the form items vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }  
+  
+  /* Optional: Style the form inputs and button as needed */
+  .form-container input,
+  .form-container button {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+  /* Styles for the dropdown */
+/* Styles for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px; /* Add some margin to the right of the dropdown */
+}
+
+/* Rest of the CSS styles remain the same */
+
+  
+  .dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a01b1b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9e1f1f;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  
+  
+  
