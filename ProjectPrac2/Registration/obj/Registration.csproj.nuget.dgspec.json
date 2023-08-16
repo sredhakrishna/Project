@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Advance\\Projectprac\\ProjectPrac2\\Registration\\Registration.csproj": {}
+    "D:\\Ust Training\\Adv-git\\practice\\ProjectPrac2\\Registration\\Registration.csproj": {}
   },
   "projects": {
-    "D:\\Advance\\Projectprac\\ProjectPrac2\\Registration\\Registration.csproj": {
+    "D:\\Ust Training\\Adv-git\\practice\\ProjectPrac2\\Registration\\Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Advance\\Projectprac\\ProjectPrac2\\Registration\\Registration.csproj",
+        "projectUniqueName": "D:\\Ust Training\\Adv-git\\practice\\ProjectPrac2\\Registration\\Registration.csproj",
         "projectName": "Registration",
-        "projectPath": "D:\\Advance\\Projectprac\\ProjectPrac2\\Registration\\Registration.csproj",
+        "projectPath": "D:\\Ust Training\\Adv-git\\practice\\ProjectPrac2\\Registration\\Registration.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Advance\\Projectprac\\ProjectPrac2\\Registration\\obj\\",
+        "outputPath": "D:\\Ust Training\\Adv-git\\practice\\ProjectPrac2\\Registration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"

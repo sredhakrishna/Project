@@ -24,8 +24,13 @@ public class UserService : IUserService
 
         var newUser = new User
         {
+            FirstName = registerModel.FirstName,
+            LastName = registerModel.LastName,
             Email = registerModel.Email,
-            Password = registerModel.Password
+            PhoneNumber = registerModel.PhoneNumber,
+            Address = registerModel.Address,
+            Password = registerModel.Password,
+            role = "user"
         };
 
         _dbContext.Users.Add(newUser);
@@ -48,8 +53,14 @@ public class UserService : IUserService
 
     public class RegisterModel
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        
         public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Address { get;set; }
         public string Password { get; set; }
+        public string role { get; set; }
     }
 
     public class LoginModel

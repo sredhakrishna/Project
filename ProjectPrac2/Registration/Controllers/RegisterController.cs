@@ -14,7 +14,7 @@ public class RegisterController : ControllerBase
         _userService = userService;
     }
 
-    [AllowAnonymous]
+    [Authorize]
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterModel registerModel)
     {
