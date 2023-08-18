@@ -43,7 +43,7 @@ namespace ParcelProject.Controllers
                         new Claim("LastName" , user.Last_Name ),
                         new Claim("PhoneNo" , user.PhoneNo ),
                          new Claim("User-email" , user.Email),
-                          new Claim(ClaimTypes.Role,user.Role),
+                          //new Claim(ClaimTypes.Role,user.Role),
                     };
 
                     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));
