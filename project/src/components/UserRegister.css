@@ -1,0 +1,175 @@
+body {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    font-family: Arial, sans-serif;
+  
+   }
+  
+   nav {
+  
+    background: rgba(51, 51, 51, 0.5);
+  
+    color: #fff;
+  
+    padding: 10px 20px;
+  
+    backdrop-filter: blur(10px);
+  
+    -webkit-backdrop-filter: blur(10px);
+  
+    z-index: 2;
+  
+    position: fixed;
+  
+    top: 0;
+  
+    left: 0;
+  
+    width: 100%;
+  
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
+  
+   }
+  
+   .nav-links li a {
+  
+    text-decoration: none;
+  
+    color: #fff;
+  
+    transition: color 0.3s ease;
+  
+   }
+  
+   .nav-links li a:hover {
+  
+    color: #007bff;
+  
+   }
+  
+   /* Register Page Styles */
+  
+   .register-container {
+  padding-top: 40px;
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    min-height: 100vh;
+  
+    background-size: cover;
+  
+    background-position: center;
+  
+    transition: background 0.5s ease;
+  
+   }
+  
+   .register-form {
+  
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    padding: 20px;
+  
+    border-radius: 8px;
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    text-align: center;
+  
+    max-width: 400px;
+  
+    width: 100%;
+  
+    margin: 0 auto;
+  
+   }
+  
+   .form-group {
+  
+    margin-bottom: 15px;
+  
+   }
+  
+   label {
+  
+    font-weight: bold;
+  
+    margin-bottom: 5px;
+  
+   }
+  
+   input[type="text"],
+  
+   input[type="password"] {
+  
+    padding: 10px;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 4px;
+  
+    font-size: 14px;
+  
+    width: 100%;
+  
+   }
+  
+   .error-message {
+  
+    color: red;
+  
+    font-size: 12px;
+  
+    margin-top: 5px;
+  
+   }
+  
+   .register-button {
+  
+    background-color: #28a745;
+  
+    color: #ffffff;
+  
+    border: none;
+  
+    border-radius: 4px;
+  
+    padding: 10px 20px;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.3s ease;
+  
+    width: 100%;
+  
+   }
+  
+   .register-button:hover {
+  
+    background-color: #1e7e34;
+  
+   }
+  
+   .login-link {
+  
+    margin-top: 20px;
+  
+    display: block;
+  
+    text-align: center;
+  
+    color: #007bff;
+  
+    text-decoration: none;
+  
+   }

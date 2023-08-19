@@ -1,0 +1,41 @@
+.about-us {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .about-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-us li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .about-us a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Additional styles can be added as needed */
+  
